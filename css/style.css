@@ -18,7 +18,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -45,7 +44,6 @@ ol, ul { list-style: none; }
   -webkit-box-sizing: border-box;
 }
 a, a:hover { text-decoration: none; }
-
 h2 {
   font-size: 1.6rem;
 }
@@ -147,7 +145,6 @@ main {
 }
 .clip-item i {
   font: 1.3rem 'FontAwesome';
-  /* TODO: check if fontawesome available ; */
 }
 .pagination-wrap {
   width: 100%;
@@ -178,8 +175,6 @@ main {
   z-index: 2;
   left: 7px;
   opacity: 0;
-  /*animation-play-state: paused;
-  animation: visionPage 3s 1 ease;*/
 }
 @media screen and (max-height: 510px) {
   .wrap {
@@ -187,7 +182,6 @@ main {
     overflow-x: hidden;
   }
 }
-
 @keyframes moveOutRight {
   from { left: 0 }
   to { left: 100% }
@@ -200,14 +194,3 @@ main {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-/*@keyframes visionPage {
-  0% {
-  opacity: 0;
-  }
-  10%, 90% {
-  opacity: 1;
-  }
-  100% {
-  opacity: 0;
-  }
-}*/
